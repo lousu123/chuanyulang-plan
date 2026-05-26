@@ -3,981 +3,1532 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>川渔郎鱼蛙火锅 · 新店开业全案营销方案</title>
+<title>川渔郎鱼蛙火锅 · 新港二号路店 — 新店开业全案营销方案</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Noto+Serif+SC:wght@600;700&display=swap');
-  
-  :root {
-    --red: #C62828;
-    --red-light: #EF5350;
-    --red-dark: #8E0000;
-    --gold: #D4A843;
-    --gold-light: #F0D68A;
-    --gold-dark: #B8860B;
-    --dark: #1A1A2E;
-    --dark2: #16213E;
-    --bg: #0F0F1A;
-    --card: #1A1A2E;
-    --text: #E8E8F0;
-    --text-muted: #9090A8;
-    --spicy: #FF6B35;
-    --gradient-red: linear-gradient(135deg, #C62828, #8E0000);
-    --gradient-gold: linear-gradient(135deg, #D4A843, #F0D68A);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Ma+Shan+Zheng&display=swap');
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; overflow-x: hidden; }
-  
-  /* 滚动条 */
-  ::-webkit-scrollbar { width: 8px; }
-  ::-webkit-scrollbar-track { background: var(--bg); }
-  ::-webkit-scrollbar-thumb { background: var(--red); border-radius: 4px; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
-  /* ========== HERO ========== */
-  .hero {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    background: linear-gradient(160deg, #0F0F1A 0%, #1A0A0A 40%, #2A0A0A 70%, #0F0F1A 100%);
-    padding: 40px 20px;
-    overflow: hidden;
-  }
-  .hero::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(ellipse at 30% 50%, rgba(198,40,40,0.08) 0%, transparent 60%),
-                radial-gradient(ellipse at 70% 30%, rgba(212,168,67,0.06) 0%, transparent 50%);
-    animation: heroGlow 20s ease-in-out infinite;
-  }
-  @keyframes heroGlow {
-    0%, 100% { transform: translate(0, 0); }
-    50% { transform: translate(-5%, -5%); }
-  }
-  
-  .hero-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(198,40,40,0.15);
-    border: 1px solid rgba(198,40,40,0.3);
-    padding: 8px 20px;
-    border-radius: 50px;
-    font-size: 14px;
-    color: var(--gold);
-    margin-bottom: 30px;
-    position: relative;
-    z-index: 1;
-  }
-  .hero h1 {
-    font-size: clamp(40px, 7vw, 80px);
-    font-weight: 900;
-    background: linear-gradient(135deg, #FF6B35, #C62828, #D4A843);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: relative;
-    z-index: 1;
-    line-height: 1.2;
-    letter-spacing: 4px;
-  }
-  .hero-sub {
-    font-size: clamp(18px, 3vw, 32px);
-    color: var(--gold);
-    font-weight: 300;
-    margin-top: 16px;
-    letter-spacing: 8px;
-    position: relative;
-    z-index: 1;
-  }
-  .hero-desc {
-    max-width: 700px;
-    margin: 30px auto 0;
-    color: var(--text-muted);
-    font-size: 16px;
-    position: relative;
-    z-index: 1;
-  }
-  .hero-divider {
-    width: 80px;
-    height: 2px;
-    background: var(--gradient-gold);
-    margin: 24px auto;
-    position: relative;
-    z-index: 1;
-  }
-  .scroll-indicator {
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: var(--text-muted);
-    font-size: 12px;
-    letter-spacing: 2px;
-    animation: bounce 2s infinite;
-  }
-  @keyframes bounce {
-    0%, 100% { transform: translateX(-50%) translateY(0); }
-    50% { transform: translateX(-50%) translateY(10px); }
-  }
+:root {
+  --red: #6B0E0E;
+  --red-dark: #4A0808;
+  --red-light: #8B1A1A;
+  --gold: #CCAA44;
+  --gold-light: #F0B429;
+  --gold-dim: rgba(204,170,68,0.15);
+  --cream: #FDF6EC;
+  --cream2: #F5F2ED;
+  --cream3: #FAF3E8;
+  --dark: #1a1a1a;
+  --text: #2c2c2c;
+  --text-light: #6b6b6b;
+  --text-muted: #999;
+  --white: #fff;
+  --shadow: 0 4px 24px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 40px rgba(0,0,0,0.12);
+  --shadow-gold: 0 4px 20px rgba(204,170,68,0.25);
+  --radius: 16px;
+  --radius-sm: 10px;
+}
 
-  /* ========== NAV ========== */
-  .nav {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: rgba(15,15,26,0.95);
-    backdrop-filter: blur(20px);
-    border-bottom: 1px solid rgba(198,40,40,0.2);
-    padding: 0 20px;
-    display: none;
-  }
-  .nav-inner {
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-    padding: 12px 0;
-    scrollbar-width: none;
-  }
-  .nav-inner::-webkit-scrollbar { display: none; }
-  .nav-item {
-    white-space: nowrap;
-    padding: 6px 16px;
-    border-radius: 20px;
-    font-size: 13px;
-    color: var(--text-muted);
-    cursor: pointer;
-    transition: all 0.3s;
-    flex-shrink: 0;
-    text-decoration: none;
-  }
-  .nav-item:hover, .nav-item.active { color: var(--gold); background: rgba(212,168,67,0.1); }
+body {
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
 
-  /* ========== SECTION ========== */
-  .section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 80px 24px;
-    opacity: 0;
-    transform: translateY(30px);
-    animation: fadeUp 0.6s forwards;
-  }
-  @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+/* ===== DECORATIVE BG ===== */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: 
+    radial-gradient(ellipse at 10% 20%, rgba(204,170,68,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 90% 80%, rgba(107,14,14,0.04) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: -1;
+}
 
-  .section-header {
-    text-align: center;
-    margin-bottom: 60px;
-  }
-  .section-number {
-    font-size: 72px;
-    font-weight: 900;
-    color: rgba(198,40,40,0.1);
-    line-height: 1;
-    margin-bottom: -20px;
-  }
-  .section-title {
-    font-size: clamp(28px, 4vw, 40px);
-    font-weight: 700;
-    color: var(--gold);
-    position: relative;
-    display: inline-block;
-  }
-  .section-title::after {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 2px;
-    background: var(--gradient-gold);
-    margin: 12px auto 0;
-  }
-  .section-sub {
-    color: var(--text-muted);
-    margin-top: 12px;
-    font-size: 15px;
-  }
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--cream2); }
+::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 4px; }
 
-  /* ========== CARDS ========== */
-  .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; }
-  .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
-  .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(160deg, var(--red-dark) 0%, var(--red) 30%, var(--red-light) 60%, #A52A2A 100%);
+  padding: 100px 40px 80px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(204,170,68,0.1) 0%, transparent 40%),
+    radial-gradient(circle at 80% 30%, rgba(255,255,255,0.04) 0%, transparent 50%);
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(to bottom right, transparent 49%, var(--cream) 50%);
+}
 
-  .card {
-    background: var(--card);
-    border-radius: 16px;
-    padding: 32px;
-    border: 1px solid rgba(198,40,40,0.1);
-    transition: all 0.4s;
-    position: relative;
-    overflow: hidden;
-  }
-  .card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: var(--gradient-red);
-    opacity: 0;
-    transition: opacity 0.4s;
-  }
-  .card:hover::before { opacity: 1; }
-  .card:hover { transform: translateY(-4px); border-color: rgba(198,40,40,0.3); box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
-  .card-icon { font-size: 36px; margin-bottom: 16px; }
-  .card h3 { font-size: 20px; font-weight: 700; margin-bottom: 12px; color: var(--gold); }
-  .card p, .card li { color: var(--text-muted); font-size: 14px; line-height: 1.8; }
-  .card ul { list-style: none; padding: 0; }
-  .card ul li::before { content: '▸ '; color: var(--red-light); }
-  .card ul li { margin-bottom: 8px; }
-  .card-highlight {
-    background: linear-gradient(135deg, rgba(198,40,40,0.05), rgba(212,168,67,0.05));
-    border: 1px solid rgba(212,168,67,0.2);
-  }
+/* Floating decorative elements */
+.hero-float {
+  position: absolute;
+  font-size: 60px;
+  opacity: 0.08;
+  animation: float 6s ease-in-out infinite;
+  user-select: none;
+  pointer-events: none;
+}
+.hero-float:nth-child(1) { top: 15%; left: 5%; animation-delay: 0s; }
+.hero-float:nth-child(2) { top: 60%; left: 8%; animation-delay: 1.5s; font-size: 40px; }
+.hero-float:nth-child(3) { top: 25%; right: 5%; animation-delay: 3s; }
+.hero-float:nth-child(4) { bottom: 20%; right: 12%; animation-delay: 4.5s; font-size: 36px; }
 
-  /* ========== 数据面板 ========== */
-  .data-panel {
-    background: var(--card);
-    border-radius: 16px;
-    padding: 40px;
-    border: 1px solid rgba(212,168,67,0.15);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 20px;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  .data-item .num {
-    font-size: 40px;
-    font-weight: 900;
-    background: var(--gradient-gold);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .data-item .label { color: var(--text-muted); font-size: 14px; margin-top: 4px; }
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(5deg); }
+}
 
-  /* ========== 流程时间轴 ========== */
-  .timeline { position: relative; padding-left: 40px; }
-  .timeline::before {
-    content: '';
-    position: absolute;
-    left: 15px;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(180deg, var(--red), var(--gold), transparent);
-  }
-  .timeline-item {
-    position: relative;
-    margin-bottom: 40px;
-    padding: 24px;
-    background: var(--card);
-    border-radius: 12px;
-    border: 1px solid rgba(198,40,40,0.1);
-  }
-  .timeline-item::before {
-    content: '';
-    position: absolute;
-    left: -32px;
-    top: 28px;
-    width: 14px;
-    height: 14px;
-    background: var(--gold);
-    border-radius: 50%;
-    border: 3px solid var(--bg);
-    box-shadow: 0 0 0 2px var(--gold);
-  }
-  .timeline-item .tag {
-    display: inline-block;
-    background: rgba(198,40,40,0.15);
-    color: var(--red-light);
-    padding: 2px 12px;
-    border-radius: 12px;
-    font-size: 12px;
-    margin-bottom: 8px;
-  }
-  .timeline-item h4 { font-size: 18px; color: var(--gold); margin-bottom: 8px; }
-  .timeline-item p, .timeline-item li { color: var(--text-muted); font-size: 14px; line-height: 1.8; }
-  .timeline-item ul { list-style: none; padding: 0; margin-top: 8px; }
-  .timeline-item ul li::before { content: '◆ '; color: var(--red-light); }
+/* Hero decorative divider */
+.hero-divider {
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+  margin: 16px auto;
+  border-radius: 2px;
+  position: relative;
+}
 
-  /* ========== 特色模块 ========== */
-  .member-card {
-    background: var(--card);
-    border-radius: 16px;
-    overflow: hidden;
-    border: 1px solid rgba(212,168,67,0.2);
-  }
-  .member-header {
-    background: linear-gradient(135deg, var(--red), var(--red-dark));
-    padding: 24px 32px;
-    text-align: center;
-  }
-  .member-header h3 { color: var(--gold); font-size: 24px; }
-  .member-body { padding: 32px; }
-  .member-body h4 { color: var(--gold); margin: 16px 0 8px; }
-  .member-body p { color: var(--text-muted); font-size: 14px; }
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  color: var(--red-dark);
+  padding: 8px 24px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-gold);
+  position: relative;
+  z-index: 1;
+}
 
-  .badge { 
-    display: inline-block;
-    padding: 2px 10px;
-    border-radius: 12px;
-    font-size: 12px;
-    font-weight: 500;
-  }
-  .badge-red { background: rgba(198,40,40,0.15); color: var(--red-light); }
-  .badge-gold { background: rgba(212,168,67,0.15); color: var(--gold); }
+.hero h1 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--gold-light);
+  letter-spacing: 6px;
+  margin-bottom: 4px;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 2px 20px rgba(204,170,68,0.2);
+}
 
-  .price-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 16px 0;
-  }
-  .price-table th {
-    background: rgba(198,40,40,0.15);
-    color: var(--gold);
-    padding: 10px 16px;
-    text-align: left;
-    font-weight: 500;
-    font-size: 14px;
-  }
-  .price-table td {
-    padding: 10px 16px;
-    border-bottom: 1px solid rgba(198,40,40,0.08);
-    color: var(--text-muted);
-    font-size: 14px;
-  }
-  .price-table tr:hover td { background: rgba(198,40,40,0.05); }
+.hero h1 .highlight-chars {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--gold), #FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
-  .highlight-box {
-    background: linear-gradient(135deg, rgba(198,40,40,0.08), rgba(212,168,67,0.08));
-    border: 1px solid rgba(212,168,67,0.2);
-    border-radius: 12px;
-    padding: 24px;
-    margin: 16px 0;
-  }
-  .highlight-box p { color: var(--text); font-size: 14px; }
-  .highlight-box strong { color: var(--gold); }
+.hero .subtitle {
+  font-size: 22px;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 1;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
 
-  /* ========== FOOTER ========== */
-  footer {
-    text-align: center;
-    padding: 60px 24px;
-    border-top: 1px solid rgba(198,40,40,0.1);
-    color: var(--text-muted);
-    font-size: 13px;
-  }
+.hero-meta {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+  background: rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+  padding: 16px 32px;
+  border-radius: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid rgba(204,170,68,0.15);
+}
 
-  /* ========== RESPONSIVE ========== */
-  @media (max-width: 768px) {
-    .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
-    .data-panel { grid-template-columns: 1fr 1fr; }
-    .section { padding: 60px 16px; }
-    .timeline { padding-left: 30px; }
-    .timeline-item::before { left: -22px; }
-  }
+.hero-meta span {
+  color: rgba(255,255,255,0.6);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.hero-meta strong {
+  color: var(--gold-light);
+  font-weight: 600;
+}
+
+/* ===== NAV ===== */
+.toc {
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.06), 0 4px 20px rgba(0,0,0,0.04);
+  padding: 0;
+}
+.toc-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 4px;
+  padding: 10px 40px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.toc-inner::-webkit-scrollbar { display: none; }
+.toc a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 20px;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.toc a:hover {
+  color: var(--red);
+  background: rgba(107,14,14,0.08);
+}
+.toc a.active { color: var(--white); background: var(--red); }
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ===== SECTION ===== */
+.section {
+  padding: 64px 0;
+  position: relative;
+}
+.section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(204,170,68,0.2), transparent);
+}
+.section:last-of-type::after { display: none; }
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.section-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; height: 40px;
+  background: linear-gradient(135deg, var(--red), var(--red-light));
+  color: var(--gold-light);
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 16px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(107,14,14,0.2);
+}
+
+.section-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--red);
+}
+
+.section-gold-line {
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold), var(--gold-light));
+  margin: 6px 0 6px 56px;
+  border-radius: 1px;
+}
+
+.section-desc {
+  color: var(--text-light);
+  font-size: 14px;
+  margin-bottom: 32px;
+  padding-left: 56px;
+  line-height: 1.6;
+}
+
+/* ===== CARDS ===== */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 28px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.03);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold-dim), var(--gold), var(--gold-dim));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+.card:hover::before { opacity: 1; }
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--red);
+  margin-bottom: 10px;
+}
+.card .label {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--cream), var(--cream2));
+  color: var(--red);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(107,14,14,0.08);
+}
+.card p, .card li {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.85;
+}
+.card ul { padding-left: 16px; }
+.card strong { color: var(--text); }
+
+/* Card with accent border */
+.card-accent {
+  border-left: 3px solid var(--gold);
+}
+
+/* ===== HIGHLIGHT BOX (GRADIENT) ===== */
+.highlight-box {
+  background: linear-gradient(145deg, var(--red), var(--red-light), #8B1A1A);
+  color: var(--white);
+  border-radius: var(--radius);
+  padding: 36px 40px;
+  margin: 28px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 6px 30px rgba(107,14,14,0.2);
+}
+.highlight-box::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(204,170,68,0.08) 0%, transparent 60%);
+  border-radius: 50%;
+}
+.highlight-box h3 {
+  color: var(--gold-light);
+  font-size: 20px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.highlight-box p, .highlight-box li {
+  color: rgba(255,255,255,0.92);
+  font-size: 14px;
+  line-height: 2;
+}
+.highlight-box ul { padding-left: 20px; }
+.highlight-box strong { color: var(--gold-light); }
+
+/* ===== TIMELINE ===== */
+.timeline {
+  position: relative;
+  padding-left: 40px;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--gold), var(--red), var(--gold));
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 24px;
+  padding: 24px 28px;
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.03);
+}
+.timeline-item:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-lg);
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -32px;
+  top: 28px;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--gold-light);
+  border: 3px solid var(--red);
+  box-shadow: 0 0 0 4px rgba(204,170,68,0.15);
+  transition: all 0.3s ease;
+}
+.timeline-item:hover::before {
+  background: var(--gold);
+  transform: scale(1.15);
+}
+.timeline-item .day {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 12px;
+  background: linear-gradient(135deg, var(--red), var(--red-light));
+  padding: 3px 14px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+.timeline-item h4 {
+  font-size: 18px;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+.timeline-item p {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.85;
+}
+.timeline-item p strong { color: var(--red); }
+
+/* ===== TABLE ===== */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin: 16px 0;
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background: var(--white);
+}
+.data-table th {
+  background: linear-gradient(135deg, var(--red), var(--red-light));
+  color: var(--gold-light);
+  padding: 14px 18px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+.data-table td {
+  padding: 12px 18px;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+.data-table tr:last-child td { border-bottom: none; }
+.data-table tr:hover td { background: var(--cream3); }
+.data-table tr:nth-child(even) td { background: rgba(253,246,236,0.4); }
+.data-table tr:nth-child(even):hover td { background: var(--cream3); }
+
+/* ===== KPI ===== */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.kpi-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 24px 16px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.03);
+  position: relative;
+  overflow: hidden;
+}
+.kpi-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  right: 20%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.kpi-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+.kpi-card:hover::after { opacity: 1; }
+.kpi-card .num {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--red);
+  line-height: 1.2;
+}
+.kpi-card .num .unit {
+  font-size: 16px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.kpi-card .label {
+  font-size: 13px;
+  color: var(--text-light);
+  margin-top: 6px;
+  font-weight: 500;
+}
+.kpi-card .kpi-icon {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Gold kpi variant */
+.kpi-card.kpi-gold .num { color: var(--gold); }
+
+/* ===== FOOTER ===== */
+.footer {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--text-muted);
+  font-size: 13px;
+  background: linear-gradient(to top, var(--cream2), transparent);
+}
+.footer-brand {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 16px;
+  color: var(--red);
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+.footer-divider {
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  margin: 12px auto;
+  border-radius: 1px;
+}
+
+/* ===== TAG ===== */
+.tag-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+.tag {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.tag-red { background: rgba(107,14,14,0.08); color: var(--red); }
+.tag-gold { background: rgba(204,170,68,0.12); color: #8B7D3A; }
+.tag-green { background: rgba(39,174,96,0.1); color: #1a8a4a; }
+
+/* ===== QUOTE / CALL OUT ===== */
+.callout {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  background: var(--white);
+  padding: 20px 24px;
+  border-radius: var(--radius-sm);
+  border-left: 4px solid var(--gold);
+  margin: 16px 0;
+  box-shadow: var(--shadow);
+}
+.callout-icon { font-size: 24px; flex-shrink: 0; }
+.callout p { font-size: 14px; color: var(--text-light); line-height: 1.8; }
+.callout strong { color: var(--red); }
+
+/* ===== PROGRESS / STAT BAR ===== */
+.stat-bar-group { margin: 16px 0; }
+.stat-bar-item { margin-bottom: 12px; }
+.stat-bar-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.stat-bar-label span:first-child { color: var(--text); font-weight: 500; }
+.stat-bar-label span:last-child { color: var(--red); font-weight: 700; }
+.stat-bar-track {
+  height: 6px;
+  background: var(--cream2);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.stat-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--gold), var(--red));
+  transition: width 1s ease;
+}
+
+/* ===== TWO COLUMN ===== */
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .col-2 { grid-template-columns: 1fr; }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .hero { padding: 60px 20px 50px; }
+  .hero h1 { font-size: 30px; letter-spacing: 3px; }
+  .hero .subtitle { font-size: 16px; }
+  .hero-meta { flex-direction: column; gap: 8px; padding: 16px 20px; border-radius: 24px; align-items: center; }
+  .section-title { font-size: 22px; }
+  .section-desc { padding-left: 0; }
+  .section-gold-line { margin-left: 0; }
+  .card-grid { grid-template-columns: 1fr; }
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+  .toc-inner { padding: 10px 16px; }
+  .highlight-box { padding: 24px; }
+  .hero-float { display: none; }
+}
+
+@media (max-width: 480px) {
+  .kpi-grid { grid-template-columns: 1fr 1fr; }
+  .kpi-card .num { font-size: 32px; }
+}
 </style>
 </head>
 <body>
 
-<!-- ========== HERO ========== -->
-<section class="hero">
-  <div class="hero-badge">🔥 川渔郎 · 泰达新店</div>
-  <h1>川渔郎鱼蛙火锅</h1>
-  <div class="hero-sub">新店开业 · 全案营销方案</div>
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <div class="hero-float">🔥</div>
+  <div class="hero-float">🐸</div>
+  <div class="hero-float">🌶️</div>
+  <div class="hero-float">🍲</div>
+  
+  <div class="hero-badge">🔥 全新门店 · 独立运营 · 从0到1</div>
+  <h1>川渔郎鱼蛙火锅 <span class="highlight-chars">· 新港店</span></h1>
   <div class="hero-divider"></div>
-  <p class="hero-desc">
-    聚焦"老客激活"，以美团收银全渠道会员系统为引擎，<br>
-    将历史团购消费者转化为品牌会员，新店开业即引爆
-  </p>
-  <div class="scroll-indicator">↓ 向下滚动</div>
-</section>
+  <p class="subtitle">新店开业 · 0到1全案营销方案</p>
+  
+  <div class="hero-meta">
+    <span>📍 <strong>新港二号路2250号</strong></span>
+    <span>🏷️ <strong>四川火锅 · 鱼蛙特色</strong></span>
+    <span>⭐ <strong>暂无星级 → 破局在即</strong></span>
+    <span>📅 <strong>2026年6月 · 开业月</strong></span>
+  </div>
+</header>
 
-<!-- ========== 01 项目背景 ========== -->
-<section class="section" style="animation-delay: 0.1s;">
+<!-- ===== NAV ===== -->
+<nav class="toc">
+  <div class="toc-inner">
+    <a href="#bg">01 背景诊断</a>
+    <a href="#strategy">02 核心策略</a>
+    <a href="#plan">03 引爆时间轴</a>
+    <a href="#dm">04 团购矩阵</a>
+    <a href="#promotion">05 推广通</a>
+    <a href="#private">06 私域沉淀</a>
+    <a href="#members">07 会员体系</a>
+    <a href="#budget">08 预算分配</a>
+    <a href="#kpi">09 KPI目标</a>
+    <a href="#qa">10 合规·话术</a>
+    <a href="#summary">11 执行总结</a>
+  </div>
+</nav>
+
+<!-- ===== 01 背景诊断 ===== -->
+<div class="container" id="bg">
+<div class="section">
   <div class="section-header">
-    <div class="section-number">01</div>
-    <h2 class="section-title">项目背景</h2>
-    <p class="section-sub">老店搬迁 · 新店重启 · 会员资产迁移是核心战机</p>
+    <span class="section-number">01</span>
+    <h2 class="section-title">背景诊断</h2>
   </div>
+  <div class="section-gold-line"></div>
+  <div class="section-desc">搞清楚起点，才能找到最短路径</div>
 
-  <div class="data-panel">
-    <div class="data-item"><div class="num">4.5</div><div class="label">老店评分 ⭐</div></div>
-    <div class="data-item"><div class="num">24.5万</div><div class="label">近30天曝光</div></div>
-    <div class="data-item"><div class="num">6,306</div><div class="label">近30天访问</div></div>
-    <div class="data-item"><div class="num">97</div><div class="label">近30天消费</div></div>
-  </div>
-
-  <div class="grid-2">
+  <div class="card-grid">
     <div class="card">
-      <div class="card-icon">📍</div>
-      <h3>老店状况</h3>
-      <ul>
-        <li>原址：塘沽工农村河北路，4.5分成熟店</li>
-        <li>已积累大量历史团购消费客户</li>
-        <li>推广通已开通，有投放基础</li>
-        <li>搬迁后老店地址关闭，流量归零</li>
-      </ul>
+      <div class="label">🏪 店铺档案</div>
+      <h3>川渔郎鱼蛙火锅 · 新港二号路店</h3>
+      <div class="tag-group">
+        <span class="tag tag-red">新店</span>
+        <span class="tag tag-gold">四川火锅</span>
+        <span class="tag tag-gold">鱼蛙特色</span>
+      </div>
+      <p>
+        <strong>📍 位置：</strong>新港街道自贸试验区新港二号路2250号<br>
+        <strong>🏘️ 商圈：</strong>成熟居民区+办公区，塘沽老核心<br>
+        <strong>🍳 品类：</strong>四川火锅 / 鱼蛙特色火锅，主打活鱼现杀<br>
+        <strong>🆕 状态：</strong><strong style="color:var(--red);">全新店，暂无星级，评价数0</strong>
+      </p>
     </div>
-    <div class="card card-highlight">
-      <div class="card-icon">🎯</div>
-      <h3>新店机遇</h3>
-      <ul>
-        <li>新址：开发区泰达供销社市场侧面</li>
-        <li>开发区消费力 > 工农村，客单价提升空间大</li>
-        <li>暂无星级，评价从零起步</li>
-        <li><strong>最大资产：97位消费过+6,306位访问过的老客户</strong></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="highlight-box" style="margin-top: 24px;">
-    <p><strong>核心洞察：</strong> 川渔郎最宝贵的资产不是装修和设备，而是老店积累的<strong>数百名实际消费过的客户</strong>。搬迁最大的风险是老客户流失，最大的战机是通过<strong>美团收银全渠道会员功能</strong>，在开业前就把这些老客锁定为会员，开业当天一呼百应。</p>
-  </div>
-</section>
-
-<!-- ========== 02 核心策略 ========== -->
-<section class="section" style="animation-delay: 0.2s;">
-  <div class="section-header">
-    <div class="section-number">02</div>
-    <h2 class="section-title">核心策略：老客激活</h2>
-    <p class="section-sub">以美团收银全渠道会员系统为载体，三波激活老客户</p>
-  </div>
-
-  <div class="grid-3">
-    <div class="card card-highlight">
-      <div class="card-icon">🔍</div>
-      <h3>第一波 · 盘点老客资产</h3>
-      <ul>
-        <li>导出老店美团/大众点评团购核销记录</li>
-        <li>梳理近6-12个月消费客户名单</li>
-        <li>消费频次、客单价、菜品偏好分析</li>
-        <li><strong>筛选高价值客户（消费≥3次或客单＞实际人均）</strong></li>
-      </ul>
-    </div>
-    <div class="card card-highlight">
-      <div class="card-icon">📞</div>
-      <h3>第二波 · 老客触达招募</h3>
-      <ul>
-        <li><strong>电话触达：</strong>优先高价值客户，告知搬迁消息</li>
-        <li><strong>短信/微信：</strong>大规模触达全体消费客户</li>
-        <li><strong>到店扫码：</strong>老店围挡引导扫码入会员群</li>
-        <li>话术：凭老店消费记录可享<strong>"老客尊享"</strong>福利</li>
-      </ul>
-    </div>
-    <div class="card card-highlight">
-      <div class="card-icon">🎫</div>
-      <h3>第三波 · 锁定开业引爆</h3>
-      <ul>
-        <li>老客注册会员送<strong>"开业免单券"</strong>（消费满额可用）</li>
-        <li>老客带新客入会享"双倍积分"</li>
-        <li><strong>会员专属开业活动</strong>（非会员原价，会员半价）</li>
-        <li>老客到店评价积累首批星级</li>
-      </ul>
+    
+    <div class="card">
+      <div class="label">🎯 核心挑战</div>
+      <h3>从0到1破局</h3>
+      <p>
+        · 无评价 → 无转化 → 无流量 → 恶性循环<br>
+        · 新港商圈火锅竞争激烈，同品类已有多家<br>
+        · 需要快速建立"可信任感"，让新客敢于进店<br>
+        · 开业第一波的爆发力，直接决定后续节奏<br>
+        · <strong>老板朋友独立加盟店</strong>，泰达店老客无法直接导流
+      </p>
     </div>
   </div>
 
-  <div class="highlight-box" style="margin-top: 24px;">
-    <p><strong>为什么这招比纯打广告有效？</strong> 老客户对川渔郎的菜品口味、服务质量已有认知，信任成本为零。把<strong>公域团的流量 → 变成私域会员 → 在开业时激活</strong>，转化率远高于新客广告投放。配合美团收银系统的全渠道会员功能，每个老客到店消费自动识别会员身份，体验无缝衔接。</p>
-  </div>
-</section>
-
-<!-- ========== 03 美团收银会员功能 ========== -->
-<section class="section" style="animation-delay: 0.3s;">
-  <div class="section-header">
-    <div class="section-number">03</div>
-    <h2 class="section-title">美团收银 · 全渠道会员体系</h2>
-    <p class="section-sub">打通美团/大众点评/微信/到店，一个会员ID通吃全渠道</p>
-  </div>
-
-  <div class="member-card">
-    <div class="member-header">
-      <h3>🔥 全渠道会员核心能力</h3>
+  <!-- Challenge stats -->
+  <div class="stat-bar-group">
+    <div class="stat-bar-item">
+      <div class="stat-bar-label">
+        <span>新店信任基础</span>
+        <span>0%</span>
+      </div>
+      <div class="stat-bar-track">
+        <div class="stat-bar-fill" style="width:5%;"></div>
+      </div>
     </div>
-    <div class="member-body">
-      <div class="grid-2">
-        <div>
-          <h4>🔗 多渠道身份打通</h4>
-          <p>客户无论从<strong>美团、大众点评、微信小程序、到店扫码</strong>进入，系统自动识别是否为同一人，一个会员ID管理全渠道消费记录和积分。</p>
-          <br>
-          <h4>📊 团购消费数据导入</h4>
-          <p>历史团购核销记录可导入收银会员系统，<strong>自动匹配老客身份</strong>，无需客户再报手机号或会员卡。</p>
-        </div>
-        <div>
-          <h4>🎯 精准营销触达</h4>
-          <p>按消费频次、消费金额、口味偏好<strong>自动打标签</strong>，定向推送优惠券和开业信息，精准唤醒沉睡老客。</p>
-          <br>
-          <h4>📱 私域运营闭环</h4>
-          <p>到店支付后自动引导关注公众号/加入社群，线上发券→到店核销→积分累积→复购激励，形成<strong>完整私域闭环</strong>。</p>
-        </div>
+    <div class="stat-bar-item">
+      <div class="stat-bar-label">
+        <span>首月目标达成</span>
+        <span>目标 100%</span>
+      </div>
+      <div class="stat-bar-track">
+        <div class="stat-bar-fill" style="width:0%;"></div>
       </div>
     </div>
   </div>
 
-  <div class="grid-3" style="margin-top: 24px;">
-    <div class="card">
-      <h3>📥 会员等级体系</h3>
-      <table class="price-table">
-        <tr><th>等级</th><th>入会条件</th><th>权益</th></tr>
-        <tr><td>🐟 鱼苗会员</td><td>任意消费即入</td><td>9.5折、生日券</td></tr>
-        <tr><td>🐸 蛙蛙会员</td><td>累计消费3次</td><td>9折、新品试吃</td></tr>
-        <tr><td>🔥 川味达人</td><td>累计消费¥500</td><td>8.5折、专属菜品</td></tr>
-        <tr><td>👑 鱼蛙之王</td><td>累计消费¥1,500</td><td>8折、储值赠送+5%</td></tr>
-      </table>
-    </div>
-    <div class="card">
-      <h3>🎟 会员权益设计</h3>
-      <ul>
-        <li><strong>入会礼包：</strong>1张满100减20券 + 1份免费冰粉</li>
-        <li><strong>生日礼：</strong>当月消费双倍积分 + 免费锅底</li>
-        <li><strong>会员日：</strong>每周三会员专享8折</li>
-        <li><strong>积分兑换：</strong>100积分=1元，可换菜品/饮品</li>
-        <li><strong>储值赠送：</strong>充300送30 / 充500送80 / 充1000送200</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>📡 收银系统核心价值</h3>
-      <ul>
-        <li>✅ <strong>自动识别会员：</strong>报手机号/扫码即可</li>
-        <li>✅ <strong>全渠道统一：</strong>美团/点评/到店积分互通</li>
-        <li>✅ <strong>开台即会员提示：</strong>服务员主动引导入会</li>
-        <li>✅ <strong>数据分析看板：</strong>实时查看会员增长/活跃</li>
-        <li>✅ <strong>自动发券：</strong>消费后自动推送下次优惠</li>
-      </ul>
-    </div>
+  <div class="callout">
+    <span class="callout-icon">💡</span>
+    <p>
+      <strong>破局核心逻辑：</strong><br>
+      团购引爆破冰 → 推广通精准获客 → 达人探店背书 → 评价积累成星 → 私域留住老客 → 会员复购稳定
+    </p>
   </div>
 
-  <div class="highlight-box" style="margin-top: 24px;">
-    <p><strong>💡 关键操作：</strong> 搬迁期间主动联系美团BD，申请将老店团购消费数据<strong>批量导入新店收银会员系统</strong>，系统自动匹配美团账号，老客到美团搜索"川渔郎"时自动识别为新店会员，实现<strong>"团购客户 → 收银会员"</strong>的无缝迁移。</p>
+  <div class="highlight-box">
+    <h3>🎯 新店行动纲领</h3>
+    <p>
+      第一阶段目标：<strong>首月冲上4.5星，积累500+条真实评价，营收破¥5万</strong><br>
+      让"新客敢进来、来过还想来"—— 这是新店存活的第一生命线
+    </p>
   </div>
-</section>
+</div>
+</div>
 
-<!-- ========== 04 会员转化全流程 ========== -->
-<section class="section" style="animation-delay: 0.4s;">
+<!-- ===== 02 核心策略 ===== -->
+<div class="container" id="strategy">
+<div class="section">
   <div class="section-header">
-    <div class="section-number">04</div>
-    <h2 class="section-title">老客转会员全流程</h2>
-    <p class="section-sub">从"曾经的消费者"到"开业的传播者"再到"长期的复购者"</p>
+    <span class="section-number">02</span>
+    <h2 class="section-title">核心策略 · 五步破冰法</h2>
   </div>
+  <div class="section-gold-line"></div>
+  <div class="section-desc">没有老客，就靠新客；没有口碑，就用产品和服务打造口碑</div>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>🔥 第一步 · 开业即引爆</h3>
+      <span class="label">D-7 ~ D+7</span>
+      <p>
+        · 开业前7天预热：朋友圈海报+短视频预告<br>
+        · 开业当天：限时特惠套餐引爆排队效应<br>
+        · 前3天：收藏打卡送菜品，快速积累首批评价<br>
+        · 邀请达人当天到店，当天出评价冲曝光
+      </p>
+    </div>
+    <div class="card">
+      <h3>📱 第二步 · 点评三板斧</h3>
+      <span class="label">D-3 ~ D+30</span>
+      <p>
+        · 低价引流团购（¥79双人餐）冲销量排名<br>
+        · 推广通精准投放：新港3km + 塘沽核心区<br>
+        · 10-15位Lv4-7达人探店，铺高质量图文评价
+      </p>
+    </div>
+    <div class="card">
+      <h3>💬 第三步 · 评价运营</h3>
+      <span class="label">D+1 ~ 持续</span>
+      <p>
+        · 到店顾客100%引导追评，桌桌必推<br>
+        · 收藏打卡送甜品/饮品，合规引导<br>
+        · 差评15分钟内响应+处理，每评必回<br>
+        · <strong>首月目标：500条真实评价</strong>
+      </p>
+    </div>
+    <div class="card">
+      <h3>📲 第四步 · 私域沉淀</h3>
+      <span class="label">D+7 ~ 持续</span>
+      <p>
+        · 收银端设置入群引导：服务员桌桌必推<br>
+        · 企业微信建群：到店扫码入群享专属福利<br>
+        · 周频运营：限时抢购+新品预告+霸王餐<br>
+        · <strong>首月目标：群人数≥500</strong>
+      </p>
+    </div>
+    <div class="card">
+      <h3>🔄 第五步 · 复购锁客</h3>
+      <span class="label">D+15 ~ 持续</span>
+      <p>
+        · 开业后推出储值方案：充200送50<br>
+        · 四级会员体系：鱼苗→小鱼→大鱼→鱼王<br>
+        · 低谷时段活动：周一至周四专属优惠<br>
+        · <strong>首月目标：50人储值</strong>
+      </p>
+    </div>
+  </div>
+
+  <div class="callout">
+    <span class="callout-icon">🗺️</span>
+    <p>
+      <strong>策略全景图：</strong>引流（团购+推广通）→ 转化（到店体验）→ 沉淀（评价+私域）→ 复购（会员+储值）→ 裂变（老带新）
+    </p>
+  </div>
+</div>
+</div>
+
+<!-- ===== 03 开业引爆计划 ===== -->
+<div class="container" id="plan">
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">03</span>
+    <h2 class="section-title">开业引爆 · 倒计时时间轴</h2>
+  </div>
+  <div class="section-gold-line"></div>
+  <div class="section-desc">以正式开业当天为D-Day，全流程精准把控每一个关键节点</div>
 
   <div class="timeline">
     <div class="timeline-item">
-      <span class="tag">步骤 1 · 搬家前30天</span>
-      <h4>📊 老客数据清洗与分层</h4>
-      <ul>
-        <li>从美团商家后台导出近12个月所有团购/买单核销记录</li>
-        <li>剔除异常数据，清洗出有效消费客户名单</li>
-        <li><strong>分层标签：</strong>高价值(≥3次) / 中等(1-2次) / 沉睡(6月未到)</li>
-        <li>导出手机号，准备短信/电话触达</li>
-      </ul>
-    </div>
-
-    <div class="timeline-item">
-      <span class="tag">步骤 2 · 搬家前20天</span>
-      <h4>📞 第一批 · 高价值老客电话触达</h4>
-      <ul>
-        <li>由老板/店长亲自致电消费≥3次的老客</li>
-        <li><strong>话术核心：</strong>"感谢老顾客支持，我们搬到泰达了，为了感谢老顾客，特意为您准备了<strong>老客尊享会员</strong>，开业第一周专享半价，加您微信发福利"</li>
-        <li>加微信 → 拉入"川渔郎老友群" → 发送会员注册链接</li>
-      </ul>
-    </div>
-
-    <div class="timeline-item">
-      <span class="tag">步骤 3 · 搬家前15天</span>
-      <h4>📨 第二批 · 全体老客短信+美团消息触达</h4>
-      <ul>
-        <li><strong>短信触达：</strong>"[川渔郎]亲爱的老顾客，我们搬到泰达啦！新店开业在即，凭本短信到店可免费领取招牌蛙锅一份+注册会员送大礼！新址：泰达供销社市场侧面"</li>
-        <li><strong>美团消息：</strong>通过美团商家后台向历史消费客户发开业预告</li>
-        <li><strong>效果目标：</strong>短信打开率30%+，注册会员转化率15%+</li>
-      </ul>
-    </div>
-
-    <div class="timeline-item">
-      <span class="tag">步骤 4 · 搬家前7天 → 开业</span>
-      <h4>🏪 第三批 · 老店围挡 + 线上社群持续触达</h4>
-      <ul>
-        <li>老店门口放置围挡：内容"川渔郎搬新家了！扫码注册会员，开业享半价！"</li>
-        <li>围挡设<strong>二维码立牌</strong>：扫码→注册会员→自动入群</li>
-        <li>社群内每日发放预热优惠券（开业才可用）</li>
-        <li>引导老客转发开业信息到朋友圈，截图领额外福利</li>
-      </ul>
-    </div>
-
-    <div class="timeline-item">
-      <span class="tag">步骤 5 · 开业当天</span>
-      <h4>🎉 会员专属开业引爆</h4>
-      <ul>
-        <li><strong>老客会员价：</strong>凭会员身份享全场8折（非会员9折）</li>
-        <li><strong>老客专属礼：</strong>到店报"我是老顾客"送招牌鱼蛙锅</li>
-        <li><strong>入会即享：</strong>开业期间新注册会员送20元券+冰粉</li>
-        <li><strong>集赞免单：</strong>发朋友圈集30赞送锅底一份（带动传播）</li>
-        <li>收银系统自动识别会员，引导评价积累星级</li>
-      </ul>
-    </div>
-
-    <div class="timeline-item">
-      <span class="tag">步骤 6 · 开业后30天</span>
-      <h4>🔄 会员长期运营 · 复购循环</h4>
-      <ul>
-        <li>消费后收银系统自动推送"下次优惠券"</li>
-        <li>每周三会员日，会员专享折扣</li>
-        <li>每月储值赠送活动，锁定长期消费</li>
-        <li>积分到期提醒，引导回流消费</li>
-        <li>新店从0到4.5分评价积累计划</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- ========== 05 团购+会员组合拳 ========== -->
-<section class="section" style="animation-delay: 0.5s;">
-  <div class="section-header">
-    <div class="section-number">05</div>
-    <h2 class="section-title">团购 × 会员投放组合拳</h2>
-    <p class="section-sub">新店开业期间，团购引新客，会员锁老客，双轮驱动</p>
-  </div>
-
-  <div class="grid-2">
-    <div class="card card-highlight">
-      <h3>🎫 主推团购套餐（引流新客）</h3>
-      <table class="price-table">
-        <tr><th>套餐名称</th><th>内容</th><th>原价</th><th>团购价</th></tr>
-        <tr><td>🔥 开业尝鲜双人餐</td><td>招牌鱼蛙锅+2份涮菜+2份主食</td><td>¥158</td><td><strong>¥88</strong></td></tr>
-        <tr><td>👨‍👩‍👧 家庭欢聚3-4人餐</td><td>大份鱼蛙锅+4份涮菜+4份主食+小吃</td><td>¥268</td><td><strong>¥158</strong></td></tr>
-        <tr><td>🐸 蛙蛙控专享单人餐</td><td>单人蛙锅+米饭+饮品</td><td>¥68</td><td><strong>¥38</strong></td></tr>
-        <tr><td>💎 会员专享套餐</td><td>尊享鱼蛙锅+精选涮品+饮品</td><td>¥198</td><td><strong>¥128</strong></td></tr>
-      </table>
-      <p style="margin-top: 12px; font-size: 13px; color: var(--text-muted);">
-        ⚠️ <strong>会员专享套餐仅限注册会员购买</strong>，团购页面标注"新会员免费注册即享此价"引导入会
+      <div class="day">D-14 ~ D-7 · 筹备期</div>
+      <h4>📌 万事俱备</h4>
+      <p>
+        · 美团/点评店铺装修：高清头图+菜品图+环境图（≥20张）<br>
+        · 团购套餐上线：开业引流款+日常锁客款<br>
+        · 推广通账户开通并预充值<br>
+        · 门店物料准备：桌贴、菜单、海报、打卡牌、二维码台卡
       </p>
     </div>
-    <div class="card card-highlight">
-      <h3>📢 推广通投放策略</h3>
-      <ul>
-        <li><strong>投放阶段：</strong>开业前7天开始投放</li>
-        <li><strong>定向人群：</strong>开发区泰达商圈周边3公里+塘沽工农村老店周边</li>
-        <li><strong>投放内容：</strong>主推开业双人餐，页面嵌入会员注册入口</li>
-        <li><strong>转化路径：</strong>看团购页 → 注册会员领券 → 下单团购 → 到店核销</li>
-        <li><strong>预算：</strong>首周¥300/天，第二周¥200/天</li>
-      </ul>
-      <div class="highlight-box" style="margin-top: 16px;">
-        <p><strong>🔥 关键动作：</strong>团购下单页引导"注册会员立减5元！"，将<strong>团购流量 → 会员留存</strong>，而非只卖完团购就结束。</p>
+    <div class="timeline-item">
+      <div class="day">D-7 ~ D-3 · 预热期</div>
+      <h4>📣 声量造势</h4>
+      <p>
+        · 朋友圈海报：老板/朋友发朋友圈扩散"新港也有川渔郎了"<br>
+        · 抖音/小红书：发布3-5条短视频（菜品特写+环境+导航）<br>
+        · 周边地推：新港二号路沿街发传单+开业优惠卡<br>
+        · 推广通预上线：小预算测试点击率，优化素材
+      </p>
+    </div>
+    <div class="timeline-item">
+      <div class="day" style="background:linear-gradient(135deg,var(--gold),var(--gold-light));color:var(--red-dark);">🔥 D-DAY · 开业当天</div>
+      <h4>🎉 一炮而红</h4>
+      <p>
+        · <strong>全场鱼蛙火锅7.8折</strong>（开业特惠限时）<br>
+        · 前50位到店 → 赠送<strong>招牌饮品1份</strong><br>
+        · 收藏打卡+写评价 → 赠送<strong>现炸酥肉1份</strong><br>
+        · 邀请3-5位达人当天探店，当天出评价<br>
+        · 推广通全面开启，抢周边搜索流量
+      </p>
+    </div>
+    <div class="timeline-item">
+      <div class="day">D+1 ~ D+7 · 加速期</div>
+      <h4>⚡ 快速冲星</h4>
+      <p>
+        · 持续达人探店（5-10位）铺评价量<br>
+        · 每日追踪评价量，差评15分钟内回复<br>
+        · 收藏打卡活动持续：送小吃/饮品/甜品<br>
+        · 微信群扫码入群：开业前3天8折券发放
+      </p>
+    </div>
+    <div class="timeline-item">
+      <div class="day">D+8 ~ D+30 · 稳定期</div>
+      <h4>📈 巩固成果</h4>
+      <p>
+        · 推广通转为日常投放模式<br>
+        · 每周发布1-2条视频/图文内容<br>
+        · 四级会员体系+储值方案上线<br>
+        · 低谷时段活动启动：工作日午市/晚市特惠
+      </p>
+    </div>
+    <div class="timeline-item">
+      <div class="day">D+31 ~ D+60 · 冲刺期</div>
+      <h4>🏆 锁定商圈地位</h4>
+      <p>
+        · 目标评价数破800+，星级稳定4.5+<br>
+        · 冲刺商圈热门榜/好评榜<br>
+        · 老客复购率监控与优化<br>
+        · 首月数据复盘，调整团购和推广通策略
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ===== 04 团购矩阵 ===== -->
+<div class="container" id="dm">
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">04</span>
+    <h2 class="section-title">团购套餐矩阵</h2>
+  </div>
+  <div class="section-gold-line"></div>
+  <div class="section-desc">价格锚点 + 引流款 + 利润款，三层产品矩阵精准覆盖不同客群</div>
+
+  <div class="table-wrapper">
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>套餐名称</th>
+        <th>价格</th>
+        <th>定位</th>
+        <th>核心菜品</th>
+        <th>上线时间</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>🍲 开业尝鲜 · 鱼蛙双人餐</strong></td>
+        <td><strong style="color:#c0392b;font-size:16px;">¥79</strong></td>
+        <td><span style="color:#c0392b;font-weight:600;">🔥 引流爆款</span></td>
+        <td>招牌鱼蛙锅底+配菜+饮品2份</td>
+        <td>D-7</td>
+      </tr>
+      <tr>
+        <td><strong>🐸 鱼蛙狂欢 · 3-4人餐</strong></td>
+        <td><strong style="font-size:16px;">¥168</strong></td>
+        <td><span style="color:var(--red);font-weight:600;">主力款</span></td>
+        <td>大份鱼蛙锅+涮菜4份+小吃+主食</td>
+        <td>D-7</td>
+      </tr>
+      <tr>
+        <td><strong>👑 川渔郎豪华 · 4-6人餐</strong></td>
+        <td><strong style="color:#CCAA44;font-size:16px;">¥298</strong></td>
+        <td><span style="color:#CCAA44;font-weight:600;">利润款</span></td>
+        <td>鱼蛙锅+精品肥牛+九宫格荤素+酒水</td>
+        <td>D+7</td>
+      </tr>
+      <tr>
+        <td><strong>💥 工作日午市 · 单人简餐</strong></td>
+        <td><strong style="color:#c0392b;font-size:16px;">¥29.9</strong></td>
+        <td><span style="color:#c0392b;font-weight:600;">低谷引流</span></td>
+        <td>迷你鱼蛙锅+米饭1份</td>
+        <td>D+14</td>
+      </tr>
+      <tr>
+        <td><strong>🎂 生日特权 · 双人免单</strong></td>
+        <td><strong style="color:#27ae60;font-size:16px;">¥0</strong></td>
+        <td><span style="color:#27ae60;font-weight:600;">🎉 口碑裂变</span></td>
+        <td>寿星本人免单（需提前预约，5位同行）</td>
+        <td>D+7</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="highlight-box">
+    <h3>🎯 团购策略核心</h3>
+    <p>
+      <strong>开业前30天</strong>：聚焦¥79双人餐冲销量 —— 新店期销量=排名权重，销量越高曝光越大<br>
+      <strong>后30天</strong>：逐步提升¥298豪华餐占比 —— 利润款拉升客单价<br>
+      <strong>长期</strong>：¥29.9午市单人餐填低谷时段 —— 保证闲时也有单量<br><br>
+      ⚠️ 团购页面头图、菜品图、视频必须精美，直接影响转化率
+    </p>
+  </div>
+</div>
+</div>
+
+<!-- ===== 05 推广通 ===== -->
+<div class="container" id="promotion">
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">05</span>
+    <h2 class="section-title">推广通投放策略</h2>
+  </div>
+  <div class="section-gold-line"></div>
+  <div class="section-desc">无基础评价时，推广通是唯一可控的"可信曝光"入口</div>
+
+  <div class="card-grid">
+    <div class="card">
+      <span class="label">📡 第一阶段</span>
+      <h3>开业期 · 抢排名</h3>
+      <p>
+        · 时间：D-3 ~ D+14（约17天）<br>
+        · 预算：<strong style="color:var(--red);font-size:18px;">¥200</strong>/天（总量¥3,400）<br>
+        · 策略：全面覆盖"火锅""鱼火锅""牛蛙""塘沽美食"等关键词<br>
+        · 人群：新港3km + 塘沽核心区2km<br>
+        · 出价：高出价抢前3位排名<br>
+        · 素材：菜品大图+开业折扣信息
+      </p>
+    </div>
+    <div class="card">
+      <span class="label">📡 第二阶段</span>
+      <h3>稳评期 · 提转化</h3>
+      <p>
+        · 时间：D+15 ~ D+30（约15天）<br>
+        · 预算：<strong style="font-size:18px;">¥150</strong>/天（总量¥2,250）<br>
+        · 策略：转向精准人群，降低出价<br>
+        · 人群：近期搜索过火锅/川菜的用户<br>
+        · 素材：更新为带评价截图和星级的创意图
+      </p>
+    </div>
+    <div class="card">
+      <span class="label">📡 第三阶段</span>
+      <h3>日常期 · 稳曝光</h3>
+      <p>
+        · 时间：D+31起<br>
+        · 预算：<strong style="font-size:18px;">¥100</strong>/天（月均¥3,000）<br>
+        · 策略：维持曝光，精细化投放<br>
+        · 节奏：周末加量，工作日减量<br>
+        · 测试：不同创意图CTR，持续优化文案
+      </p>
+    </div>
+  </div>
+
+  <div class="highlight-box">
+    <h3>⚠️ 新店推广通注意事项</h3>
+    <p>
+      ① 没有评价基础时，推广通转化率会偏低 → 配合团购低价引流品提升转化<br>
+      ② 开业期不要省预算，这是"冷启动"必须付出的成本<br>
+      ③ 每3天检查一次数据：曝光量→点击率→团购下单率，持续优化素材<br>
+      ④ 建议绑定团购套餐为推广通推广落地页，直接引导下单
+    </p>
+  </div>
+</div>
+</div>
+
+<!-- ===== 06 私域沉淀 ===== -->
+<div class="container" id="private">
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">06</span>
+    <h2 class="section-title">私域沉淀 · 把客人装进口袋</h2>
+  </div>
+  <div class="section-gold-line"></div>
+  <div class="section-desc">新店没有老客可以盘 — 那就从第一天开始建自己的私域池</div>
+
+  <div class="card-grid">
+    <div class="card">
+      <span class="label">📥 入群激励</span>
+      <h3>进群就送 · 桌桌必推</h3>
+      <p>
+        · 收银后：服务员主动邀请扫码入群<br>
+        · 入群福利：每周抢"霸王餐"名额（每周2位）<br>
+        · 入群即送：下次到店<strong>88折券</strong><br>
+        · 目标：首月入群人数 <strong style="color:var(--red);">≥500人</strong>
+      </p>
+    </div>
+    <div class="card">
+      <span class="label">📢 群运营日历</span>
+      <h3>周频触达 · 不打扰但有用</h3>
+      <p>
+        · <strong>周一</strong>：【鱼蛙上新】本周新菜品预告<br>
+        · <strong>周三</strong>：【限时抢购】限量10份¥49.9双人餐<br>
+        · <strong>周五</strong>：【周末好食】周末到店加赠菜品<br>
+        · <strong>周日</strong>：【霸王餐】本周开奖+下周预告
+      </p>
+    </div>
+    <div class="card">
+      <span class="label">💎 裂变玩法</span>
+      <h3>老带新 · 口碑裂变</h3>
+      <p>
+        · 老客带新客到店 → 双方各赠招牌菜1份<br>
+        · 转发开业海报到朋友圈 → 到店享88折<br>
+        · 大众点评写满100字+3图评价 → 返¥5红包<br>
+        · 抖音发布探店视频@门店 → 送¥58菜品券
+      </p>
+    </div>
+  </div>
+
+  <div class="callout">
+    <span class="callout-icon">💡</span>
+    <p>
+      <strong>私域核心逻辑：</strong>400元的霸王餐成本（2份×¥50×4周），换来的是500个持续可触达的私域用户。这群人的终身价值（LTV）远大于成本。
+    </p>
+  </div>
+</div>
+</div>
+
+<!-- ===== 07 会员体系 ===== -->
+<div class="container" id="members">
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">07</span>
+    <h2 class="section-title">会员体系 · 从第一次到每一次</h2>
+  </div>
+  <div class="section-gold-line"></div>
+  <div class="section-desc">新店没有会员基础？从第一桌客人就开始建！</div>
+
+  <div class="table-wrapper">
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>等级</th>
+        <th>门槛</th>
+        <th>核心权益</th>
+        <th>运营重点</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>🐟 鱼苗会员</strong></td>
+        <td>首次到店自动注册</td>
+        <td>入会礼包¥28菜品券</td>
+        <td>所有到店顾客默认注册</td>
+      </tr>
+      <tr>
+        <td><strong>🐠 小鱼会员</strong></td>
+        <td>累计消费3次</td>
+        <td>生日88折+送长寿面</td>
+        <td>推储值时锁定这批人</td>
+      </tr>
+      <tr>
+        <td><strong>🐟 大鱼会员</strong></td>
+        <td>消费8次 或 储值≥¥500</td>
+        <td>全单9折+抢购优先</td>
+        <td>核心复购人群重点关注</td>
+      </tr>
+      <tr>
+        <td><strong>👑 鱼王会员</strong></td>
+        <td>消费20次 或 储值≥¥2,000</td>
+        <td>全单85折+新品免费尝鲜+生日宴免单（4人内）</td>
+        <td>超核心KOC，重点维护</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="highlight-box">
+    <h3>💰 开业储值特惠方案（仅限首月）</h3>
+    <p>
+      <strong>· 充¥200 → 送¥50</strong>（实际到账¥250）<br>
+      <strong>· 充¥500 → 送¥150</strong>（实际到账¥650）<br>
+      <strong>· 充¥1,000 → 送¥400</strong>（实际到账¥1,400）<br><br>
+      <strong>策略逻辑：</strong>新店没有老客信任基础 → 储值需要高门槛优惠刺激 → 首月目标50人储值，沉淀资金¥2-3万
+    </p>
+  </div>
+</div>
+</div>
+
+<!-- ===== 08 预算分配 ===== -->
+<div class="container" id="budget">
+<div class="section">
+  <div class="section-header">
+    <span class="section-number">08</span>
+    <h2 class="section-title">预算分配 · 首月投入计划</h2>
+  </div>
+  <div class="section-gold-line"></div>
+  <div class="section-desc">新店启动需要一定的投入，以下是建议首月预算分配框架</div>
+
+  <div class="table-wrapper">
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>项目</th>
+        <th>预算（元）</th>
+        <th>占比</th>
+        <th>说明</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>推广通投放（开业期+稳评期）</td>
+        <td><strong>¥5,650</strong></td>
+        <td>38%</td>
+        <td>¥200/天×17天 + ¥150/天×15天</td>
+      </tr>
+      <tr>
+        <td>达人探店邀请</td>
+        <td><strong>¥4,000</strong></td>
+        <td>27%</td>
+        <td>10-15位达人 · 免单+差旅补助</td>
+      </tr>
+      <tr>
+        <td>团购平台抽佣&活动让利</td>
+        <td><strong>¥3,000</strong></td>
+        <td>20%</td>
+        <td>开业7.8折让利部分成本</td>
+      </tr>
+      <tr>
+        <td>门店物料&地推</td>
+        <td><strong>¥1,500</strong></td>
+        <td>10%</td>
+        <td>传单、海报、桌贴、台卡、打卡牌</td>
+      </tr>
+      <tr>
+        <td>私域活动基金（霸王餐等）</td>
+        <td><strong>¥850</strong></td>
+        <td>5%</td>
+        <td>每周霸王餐成本+群福利</td>
+      </tr>
+      <tr style="background:var(--cream3);font-weight:700;">
+        <td><strong>总计</strong></td>
+        <td><strong style="color:var(--red);font-size:18px;">¥15,000</strong></td>
+        <td><strong>100%</strong></td>
+        <td>⚠️ 可根据实际情况弹性调整</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <!-- Budget stat bar -->
+  <div class="stat-bar-group" style="margin-top:24px;">
+    <div class="stat-bar-item">
+      <div class="stat-bar-label">
+        <span>推广通投放</span>
+        <span>38% · ¥5,650</span>
+      </div>
+      <div class="stat-bar-track">
+        <div class="stat-bar-fill" style="width:38%;"></div>
+      </div>
+    </div>
+    <div class="stat-bar-item">
+      <div class="stat-bar-label">
+        <span>达人探店邀请</span>
+        <span>27% · ¥4,000</span>
+      </div>
+      <div class="stat-bar-track">
+        <div class="stat-bar-fill" style="width:27%;"></div>
+      </div>
+    </div>
+    <div class="stat-bar-item">
+      <div class="stat-bar-label">
+        <span>团购让利&平台抽佣</span>
+        <span>20% · ¥3,000</span>
+      </div>
+      <div class="stat-bar-track">
+        <div class="stat-bar-fill" style="width:20%;"></div>
+      </div>
+    </div>
+    <div class="stat-bar-item">
+      <div class="stat-bar-label">
+        <span>门店物料+地推</span>
+        <span>10% · ¥1,500</span>
+      </div>
+      <div class="stat-bar-track">
+        <div class="stat-bar-fill" style="width:10%;"></div>
+      </div>
+    </div>
+    <div class="stat-bar-item">
+      <div class="stat-bar-label">
+        <span>私域活动基金</span>
+        <span>5% · ¥850</span>
+      </div>
+      <div class="stat-bar-track">
+        <div class="stat-bar-fill" style="width:5%;"></div>
       </div>
     </div>
   </div>
 
-  <div class="grid-3" style="margin-top: 24px;">
-    <div class="card">
-      <h3>🥇 收藏打卡有礼</h3>
-      <ul>
-        <li>到店扫码收藏门店送饮品</li>
-        <li>打卡发布"笔记"送小吃</li>
-        <li>大众点评写评价送冰粉</li>
-        <li><strong>注意：</strong>引导收藏打卡即可，<strong>禁止"好评返现"</strong></li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>🎁 到店付费引导入会</h3>
-      <ul>
-        <li>结账时服务员主动说："注册会员今天打8折哦，比团购还划算"</li>
-        <li>收银系统提示"该客户未注册会员" → 服务员引导</li>
-        <li>注册后送50元优惠券包（分3次使用）</li>
-        <li>入会后自动关注公众号，下次可推送</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>🔄 会员拉新裂变</h3>
-      <ul>
-        <li><strong>老客带新客：</strong>老会员推荐新会员，双方各得30元券</li>
-        <li><strong>朋友圈裂变：</strong>转发开业海报到朋友圈，截图领菜品</li>
-        <li><strong>社群裂变：</strong>群内老客邀请3位好友入群，领优惠券</li>
-        <li>收银系统支持记录会员推荐关系</li>
-      </ul>
-    </div>
+  <div class="highlight-box">
+    <h3>💡 弹性预算建议</h3>
+    <p>
+      · <strong>推荐框架</strong>：¥15,000/月，较为完整地覆盖所有冷启动渠道<br>
+      · <strong>最低启动</strong>：可压缩至¥8,000（砍掉达人探店，纯靠自然评价积累）<br>
+      · <strong>预算充裕</strong>：推广通再加到¥8,000/月，冷启动期更快<br>
+      · 推广通是「花钱买时间」—— 预算越大，冷启动期越短<br>
+      · <strong>核心原则</strong>：开业第一个月不省推广通，这是新店唯一可控的流量来源
+    </p>
   </div>
-</section>
+</div>
+</div>
 
-<!-- ========== 06 私域社群运营 ========== -->
-<section class="section" style="animation-delay: 0.6s;">
+<!-- ===== 09 KPI ===== -->
+<div class="container" id="kpi">
+<div class="section">
   <div class="section-header">
-    <div class="section-number">06</div>
-    <h2 class="section-title">私域社群运营</h2>
-    <p class="section-sub">不止拉群，要让每个群成员都变成"川渔郎的自来水"</p>
+    <span class="section-number">09</span>
+    <h2 class="section-title">KPI目标 · 首月关键指标</h2>
   </div>
+  <div class="section-gold-line"></div>
+  <div class="section-desc">没有数据就无从优化 —— 必须每天盯住这些数字</div>
 
-  <div class="grid-3">
-    <div class="card">
-      <h3>📱 社群分层</h3>
-      <ul>
-        <li><strong>川渔郎·老友群：</strong> 历史消费老客专属群，不定期老客福利</li>
-        <li><strong>川渔郎·粉丝群：</strong> 新老客户融合群，开业预告/日常活动</li>
-        <li>两群内容差异化，老友群权益更高</li>
-      </ul>
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <span class="kpi-icon">📝</span>
+      <div class="num">500<span class="unit">+</span></div>
+      <div class="label">首月评价数</div>
     </div>
-    <div class="card">
-      <h3>📆 社群内容日历</h3>
-      <ul>
-        <li><strong>周一：</strong>新品预告/本周活动</li>
-        <li><strong>周三：</strong>会员日专属折扣</li>
-        <li><strong>周五：</strong>周末聚餐推荐+限时券</li>
-        <li><strong>日常：</strong>菜品实拍、后厨日常、老板故事</li>
-      </ul>
+    <div class="kpi-card">
+      <span class="kpi-icon">⭐</span>
+      <div class="num">4.5<span class="unit">🌟</span></div>
+      <div class="label">首月星级目标</div>
     </div>
-    <div class="card">
-      <h3>🎮 社群互动</h3>
-      <ul>
-        <li>每周抽奖：群内抽3位送免费锅底</li>
-        <li>晒单有奖：到店晒图到群里领券</li>
-        <li>投票互动：新品口味投票，让客户参与</li>
-        <li>锚定达人到店帮拍，增加社群活跃</li>
-      </ul>
+    <div class="kpi-card">
+      <span class="kpi-icon">🎫</span>
+      <div class="num">3,000<span class="unit">单</span></div>
+      <div class="label">团购核销量</div>
     </div>
-  </div>
-</section>
-
-<!-- ========== 07 推广通+达人探店 ========== -->
-<section class="section" style="animation-delay: 0.7s;">
-  <div class="section-header">
-    <div class="section-number">07</div>
-    <h2 class="section-title">线上推广计划</h2>
-    <p class="section-sub">开业连续14天，每日节奏清晰，线上线下联动</p>
-  </div>
-
-  <div class="grid-4">
-    <div class="card">
-      <div style="font-size: 32px; font-weight: 900; color: var(--red-light);">D-7</div>
-      <h3 style="font-size: 16px;">开业倒计时</h3>
-      <p>推广通开投，定向老店周边+新店周边<br>社群每日发倒计时海报</p>
+    <div class="kpi-card">
+      <span class="kpi-icon">💰</span>
+      <div class="num">¥5<span class="unit">万+</span></div>
+      <div class="label">首月营收目标</div>
     </div>
-    <div class="card">
-      <div style="font-size: 32px; font-weight: 900; color: var(--red-light);">D-Day</div>
-      <h3 style="font-size: 16px;">开业引爆</h3>
-      <p>推广通加大至¥400/天<br>邀请2位本地达人探店</p>
+    <div class="kpi-card">
+      <span class="kpi-icon">👥</span>
+      <div class="num">500<span class="unit">人</span></div>
+      <div class="label">私域群人数</div>
     </div>
-    <div class="card">
-      <div style="font-size: 32px; font-weight: 900; color: var(--red-light);">D+3</div>
-      <h3 style="font-size: 16px;">口碑冲刺</h3>
-      <p>引导到店客户写评价<br>推广通维持¥300/天</p>
+    <div class="kpi-card">
+      <span class="kpi-icon">💳</span>
+      <div class="num">50<span class="unit">人</span></div>
+      <div class="label">首月储值会员</div>
     </div>
-    <div class="card">
-      <div style="font-size: 32px; font-weight: 900; color: var(--red-light);">D+7</div>
-      <h3 style="font-size: 16px;">稳定运营</h3>
-      <p>评价≥30条开始优化<br>推广通降至¥200/天</p>
+    <div class="kpi-card">
+      <span class="kpi-icon">🧾</span>
+      <div class="num">¥90<span class="unit">+</span></div>
+      <div class="label">目标客单价</div>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-icon">🔄</span>
+      <div class="num">20<span class="unit">%</span></div>
+      <div class="label">次月复购率</div>
     </div>
   </div>
 
-  <div style="margin-top: 32px;">
-    <div class="grid-2">
+  <!-- Daily monitor checklist -->
+  <div style="margin-top:28px;">
+    <div class="col-2">
       <div class="card">
-        <h3>🎬 达人探店计划</h3>
-        <ul>
-          <li><strong>泰达区域探店达人：</strong>选2-3位粉丝1-5万的本地美食号</li>
-          <li><strong>内容方向：</strong>老店搬迁故事+新店环境+鱼蛙火锅实拍</li>
-          <li><strong>置换方式：</strong>霸王餐+小额车马费</li>
-          <li><strong>发布平台：</strong>大众点评笔记+小红书+抖音</li>
-          <li><strong>引导动作：</strong>视频/笔记中引导"报暗号注册会员送菜品"</li>
-        </ul>
+        <h3>📊 每日盯盘数据</h3>
+        <p>
+          ① 评价量：每天新增多少条？差评处理了吗？<br>
+          ② 推广通ROI：曝光→点击→下单转化率<br>
+          ③ 团购核销率：买券的人有没有来核销？<br>
+          ④ 客单价：团购核销后的追加消费<br>
+          ⑤ 入群人数：服务员有没有每桌都推？
+        </p>
       </div>
       <div class="card">
-        <h3>📊 新店评价积累计划</h3>
-        <ul>
-          <li><strong>目标：</strong>开业首月积累50-80条有效评价，达到4.5分</li>
-          <li><strong>方法1：</strong>到店客户主动引导写评价（非好评返现）</li>
-          <li><strong>方法2：</strong>会员消费后自动推送评价邀请</li>
-          <li><strong>方法3：</strong>"收藏打卡+写真实评价"送饮品券</li>
-          <li><strong>⚠️ 合规红线：</strong>禁止"写好评送东西"，只能引导"写真实评价"</li>
-        </ul>
+        <h3>🎯 每周复盘要点</h3>
+        <p>
+          ① 本周评价新增 vs 目标差距<br>
+          ② 推广通数据报表：CPC、CTR、ROI<br>
+          ③ 团购各套餐销量排名<br>
+          ④ 私域群活跃度+入群人数<br>
+          ⑤ 下周行动计划调整
+        </p>
       </div>
     </div>
   </div>
-</section>
+</div>
+</div>
 
-<!-- ========== 08 会员KPI ========== -->
-<section class="section" style="animation-delay: 0.8s;">
+<!-- ===== 10 合规·话术 ===== -->
+<div class="container" id="qa">
+<div class="section">
   <div class="section-header">
-    <div class="section-number">08</div>
-    <h2 class="section-title">会员KPI目标</h2>
-    <p class="section-sub">用数据衡量老客激活效果</p>
+    <span class="section-number">10</span>
+    <h2 class="section-title">合规红线 &amp; 话术指南</h2>
   </div>
+  <div class="section-gold-line"></div>
+  <div class="section-desc">新店开业最容易踩的坑，提前规避，守住底线</div>
 
-  <div class="data-panel">
-    <div class="data-item"><div class="num">200+</div><div class="label">导入老客会员</div></div>
-    <div class="data-item"><div class="num">30%</div><div class="label">老客激活率</div></div>
-    <div class="data-item"><div class="num">500+</div><div class="label">首月累计会员</div></div>
-    <div class="data-item"><div class="num">4.5⭐</div><div class="label">首月评分目标</div></div>
-    <div class="data-item"><div class="num">70%+</div><div class="label">团购核销率</div></div>
-    <div class="data-item"><div class="num">300+</div><div class="label">收藏量</div></div>
-  </div>
-
-  <div class="grid-3">
-    <div class="card">
-      <h3>📈 会员运营KPI（首月）</h3>
-      <table class="price-table">
-        <tr><th>指标</th><th>目标值</th></tr>
-        <tr><td>导入老客数</td><td>200+人</td></tr>
-        <tr><td>新注册会员</td><td>500+人</td></tr>
-        <tr><td>会员活跃率</td><td>≥60%</td></tr>
-        <tr><td>会员复购率</td><td>≥25%</td></tr>
-        <tr><td>储值金额</td><td>≥¥5,000</td></tr>
-      </table>
+  <div class="card-grid">
+    <div class="card card-accent">
+      <span class="label">🚫 合规界限</span>
+      <h3>哪些话不能说？</h3>
+      <p>
+        ❌ <strong style="color:#c0392b;">绝对禁止：</strong>"好评返现""给五星送菜"<br>
+        ❌ 禁止：刷单、虚假交易、刷评价<br>
+        ❌ 禁止：诱导顾客写虚假好评<br><br>
+        ✅ <strong style="color:#27ae60;">可以说：</strong>"收藏打卡到店送小吃"<br>
+        ✅ 可以说："欢迎在点评分享您的用餐体验"
+      </p>
     </div>
-    <div class="card">
-      <h3>🎯 线上运营KPI（首月）</h3>
-      <table class="price-table">
-        <tr><th>指标</th><th>目标值</th></tr>
-        <tr><td>团购订单</td><td>≥200单</td></tr>
-        <tr><td>推广通曝光</td><td>≥10万次</td></tr>
-        <tr><td>收藏量</td><td>≥300</td></tr>
-        <tr><td>评价量</td><td>≥50条</td></tr>
-        <tr><td>评分目标</td><td>4.5⭐</td></tr>
-      </table>
+    <div class="card card-accent">
+      <span class="label">💬 差评应对</span>
+      <h3>差评处理SOP</h3>
+      <p>
+        · <strong>15分钟内回复</strong>：先道歉，再解释，后补救<br><br>
+        话术模板：<br>
+        "尊敬的顾客您好，非常抱歉给您带来了不好的用餐体验。关于您提到的【具体问题】，我们已经和后厨核实并立即改进。希望能有机会再次为您服务，请通过XXX联系我们，为您安排一次免费体验。"
+      </p>
     </div>
-    <div class="card">
-      <h3>💰 营收KPI（首月）</h3>
-      <table class="price-table">
-        <tr><th>指标</th><th>目标值</th></tr>
-        <tr><td>日均营收</td><td>¥3,000-5,000</td></tr>
-        <tr><td>月营收</td><td>¥9万-15万</td></tr>
-        <tr><td>客单价</td><td>¥55-65</td></tr>
-        <tr><td>翻台率</td><td>≥2.0</td></tr>
-        <tr><td>推广通ROI</td><td>≥5</td></tr>
-      </table>
+    <div class="card card-accent">
+      <span class="label">🗣️ 服务员话术</span>
+      <h3>结账必推话术</h3>
+      <p>
+        "您好！店里新开业正在冲口碑，您方便收藏一下咱们店铺，再拍两张照片写个评价吗？我送您一份【现炸酥肉/红糖冰粉/酸梅汤】！不强制不强制，您方便的话帮我个忙~"<br><br>
+        ⚡ <strong>关键：</strong>语气要真诚自然，不要像背台词
+      </p>
     </div>
   </div>
-</section>
 
-<!-- ========== 09 预算 ========== -->
-<section class="section" style="animation-delay: 0.9s;">
+  <div class="callout">
+    <span class="callout-icon">🔔</span>
+    <p>
+      <strong>红线提醒：</strong>"好评返现"是平台绝对红线，一旦发现直接扣分降权甚至下架。收藏打卡送菜品是合规的替代方案，效果同样好！
+    </p>
+  </div>
+</div>
+</div>
+
+<!-- ===== 11 总结 ===== -->
+<div class="container" id="summary">
+<div class="section" style="border-bottom:none;">
   <div class="section-header">
-    <div class="section-number">09</div>
-    <h2 class="section-title">首月预算规划</h2>
-    <p class="section-sub">精打细算，聚焦老客激活和开业引爆</p>
+    <span class="section-number">11</span>
+    <h2 class="section-title">总结 · 新店出圈路线图</h2>
+  </div>
+  <div class="section-gold-line"></div>
+  <div class="section-desc">作战地图已经画好，按优先级一步步来</div>
+
+  <div class="highlight-box">
+    <h3>📋 执行优先级</h3>
+    <p>
+      <strong>🔴 第一优先级（开业前必须完成）：</strong><br>
+      1. 美团/点评店铺装修（店招+头图+菜品图+环境图≥20张）<br>
+      2. 团购套餐上线（¥79双人餐先行）<br>
+      3. 门店物料全部到位（打卡牌、台卡、宣传单）<br><br>
+
+      <strong>🟠 第二优先级（开业后7天内）：</strong><br>
+      4. 推广通全面开启投放<br>
+      5. 达人探店安排上<br>
+      6. 收藏打卡活动启动，每天盯评价量<br><br>
+
+      <strong>🟢 第三优先级（开业后15-30天）：</strong><br>
+      7. 私域群启动运营<br>
+      8. 储值方案+会员体系上线<br>
+      9. 低谷时段活动推出<br>
+      10. 数据复盘，调整策略
+    </p>
   </div>
 
-  <div class="card" style="max-width: 700px; margin: 0 auto;">
-    <table class="price-table">
-      <tr><th>项目</th><th>明细</th><th>预算</th></tr>
-      <tr><td>📞 老客触达</td><td>短信费+电话费</td><td>¥300</td></tr>
-      <tr><td>🎬 达人探店</td><td>2-3位本地达人置换/车马费</td><td>¥1,500</td></tr>
-      <tr><td>📢 推广通</td><td>首月投放（日均¥200-400）</td><td>¥7,000</td></tr>
-      <tr><td>🎫 团购补贴</td><td>开业特价套餐让利</td><td>¥2,000</td></tr>
-      <tr><td>🎉 开业物料</td><td>围挡、DM单、海报、立牌</td><td>¥1,000</td></tr>
-      <tr><td>🎁 会员礼品</td><td>入会礼包物料（冰粉成本）</td><td>¥1,000</td></tr>
-      <tr><td>🗂 美团结算</td><td>收银系统开户+会员功能费</td><td>¥0（含在收银套餐）</td></tr>
-      <tr><td style="border-top: 2px solid var(--gold);"><strong>合计</strong></td><td style="border-top: 2px solid var(--gold);"></td><td style="border-top: 2px solid var(--gold);"><strong>¥12,800</strong></td></tr>
-    </table>
-    <div class="highlight-box" style="margin-top: 20px;">
-      <p><strong>💡 省钱提示：</strong> 推广通可先投¥200/天测试，看曝光和转化数据再调整。达人探店优先找愿意"霸王餐+车马费"的小达人，效果往往比大V更好。老客触达是最划算的——已有信任基础，转化成本最低。</p>
+  <!-- Final summary card -->
+  <div class="card" style="text-align:center;padding:40px 32px;">
+    <div class="hero-badge" style="margin:0 auto 16px;">🐸🔥 川渔郎 · 新港二号路店</div>
+    <h3 style="font-family:'Noto Serif SC',serif;font-size:26px;color:var(--red);margin-bottom:12px;">
+      全新店 · 无评价 · 无老客
+    </h3>
+    <p style="font-size:16px;color:var(--text-light);max-width:500px;margin:0 auto;line-height:1.9;">
+      靠产品 + 活动 + 投放，<br>
+      <strong style="color:var(--red);font-size:18px;">30天冲上4.5星，站稳新港商圈</strong>
+    </p>
+    <div style="margin-top:20px;padding:12px 0;border-top:1px solid rgba(0,0,0,0.06);">
+      <p style="font-size:14px;color:var(--red);font-weight:700;letter-spacing:1px;">
+        「第一波流量决定生死，开业必胜！」
+      </p>
     </div>
   </div>
-</section>
 
-<!-- ========== 10 时间节奏 ========== -->
-<section class="section" style="animation-delay: 1.0s;">
-  <div class="section-header">
-    <div class="section-number">10</div>
-    <h2 class="section-title">落地时间节奏</h2>
-    <p class="section-sub">倒推30天，每一步都有行动清单</p>
+  <!-- Quick reference quote -->
+  <div class="callout" style="margin-top:20px;">
+    <span class="callout-icon">🎯</span>
+    <p>
+      <strong>一句话记住策略：</strong><br>
+      团购引爆破冰 → 推广通精准获客 → 达人探店背书 → 评价积累成星 → 私域留客 → 会员复购
+    </p>
   </div>
+</div>
+</div>
 
-  <div class="grid-3">
-    <div class="card">
-      <h3>📅 D-30 ~ D-21</h3>
-      <p style="color: var(--red-light); font-weight: 500;">筹备期</p>
-      <ul>
-        <li>✅ 导出老店团购消费数据</li>
-        <li>✅ 客户分层清洗</li>
-        <li>✅ 申请美团收银全渠道会员功能</li>
-        <li>✅ 设计会员等级/权益</li>
-        <li>✅ 编辑老客触达话术</li>
-        <li>✅ 准备开业物料（围挡/DM单）</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>📅 D-20 ~ D-8</h3>
-      <p style="color: var(--gold); font-weight: 500;">预热期</p>
-      <ul>
-        <li>✅ 电话触达高价值老客</li>
-        <li>✅ 短信群发全体老客</li>
-        <li>✅ 老店围挡安装</li>
-        <li>✅ 建立老友群/粉丝群</li>
-        <li>✅ 社群每日预热内容</li>
-        <li>✅ 达人探店预约</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>📅 D-7 ~ D+14</h3>
-      <p style="color: var(--gold); font-weight: 500;">引爆期</p>
-      <ul>
-        <li>✅ 推广通开投</li>
-        <li>✅ 开业会员专属折扣</li>
-        <li>✅ 达人探店发布</li>
-        <li>✅ 引导评价积累</li>
-        <li>✅ 社群每日发券/互动</li>
-        <li>✅ 一周后复盘调整策略</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- ========== 11 竞争分析 ========== -->
-<section class="section" style="animation-delay: 1.1s;">
-  <div class="section-header">
-    <div class="section-number">11</div>
-    <h2 class="section-title">泰达商圈竞品分析</h2>
-    <p class="section-sub">知己知彼，差异化突围</p>
-  </div>
-
-  <div class="card">
-    <table class="price-table">
-      <tr><th>竞品类型</th><th>代表品牌</th><th>川渔郎差异化机会</th></tr>
-      <tr><td>🔥 火锅类</td><td>海底捞、呷哺呷哺</td><td>鱼蛙锅细分品类差异化，价格更亲民</td></tr>
-      <tr><td>🐟 鱼火锅类</td><td>新辣道、半天妖</td><td>川味特色更重，蛙+鱼双品类丰富</td></tr>
-      <tr><td>🥘 地方特色</td><td>周边川菜馆</td><td>火锅氛围感强，更适合聚餐场景</td></tr>
-      <tr><td>🏪 性价比快餐</td><td>周边小吃/简餐</td><td>人均¥55-65对标中等消费，适合工作餐+聚餐</td></tr>
-    </table>
-  </div>
-
-  <div class="highlight-box" style="margin-top: 24px;">
-    <p><strong>⚔️ 竞争策略：</strong> 不跟大品牌拼价格，用<strong>"老客户信任+会员私域+鱼蛙锅特色"</strong>三张牌打差异化。泰达商圈开发区白领+居民消费力不错，人均¥55-65的鱼蛙火锅有明确的市场空间。配合老客激活策略，开业快速积累第一批好评，形成口碑正循环。</p>
-  </div>
-</section>
-
-<!-- ========== FOOTER ========== -->
-<footer>
-  <p>川渔郎鱼蛙火锅 · 泰达新店全案营销方案</p>
-  <p style="margin-top: 4px;">出品：娄苏 · 地面产品销售 | 美团1024 开店神器</p>
-  <p style="margin-top: 20px; font-size: 12px; color: rgba(144,144,168,0.5);">
-    本方案为营销建议，实际执行请结合店铺具体情况调整
-  </p>
-</footer>
+<div class="footer">
+  <div class="footer-brand">川渔郎鱼蛙火锅 · 新港二号路店</div>
+  <div class="footer-divider"></div>
+  本方案由 AI 助手生成 · 数据仅供参考 · 具体执行请根据门店实际情况调整<br>
+  2026年6月 · 新店开业企划
+</div>
 
 <script>
-// 滚动导航显示
-window.addEventListener('scroll', () => {
-  const nav = document.querySelector('.nav');
-  if (window.scrollY > 300) nav.style.display = 'block';
-  else nav.style.display = 'none';
-});
-
-// 淡入动画
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.style.opacity = '1';
-      entry.target.style.transform = 'translateY(0)';
+// Smooth scroll for nav links
+document.querySelectorAll('.toc a').forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.querySelector(link.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   });
-}, { threshold: 0.1 });
+});
 
-document.querySelectorAll('.section').forEach(el => observer.observe(el));
+// Active nav highlight on scroll
+const sections = document.querySelectorAll('.section');
+const navLinks = document.querySelectorAll('.toc a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    const top = section.offsetTop - 200;
+    if (window.scrollY >= top) {
+      current = section.getAttribute('id');
+    }
+  });
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) {
+      link.classList.add('active');
+    }
+  });
+});
 </script>
 
 </body>
